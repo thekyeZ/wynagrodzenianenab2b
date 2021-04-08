@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+.data {
+  display: flex;
+  /* margin-top: 50px; */
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+.data > div {
+  width: 50%;
+}
+
+
+/* Summary */
+
+.summary {
+  margin-top: 20px;
+}
+
+.summary p {
+  font-size: 24px;
+  margin-top: 5px;
+  color: green;
+}
+
+
+/* Incommings */
+
+.form-group {
+  display:flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-group input {
+  margin-left: 5px;
+}
+
+
+.incomings header, .zus-info header {
+  margin-bottom: 20px;
+}
